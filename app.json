@@ -1,0 +1,50 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map",
+    "pages/video/video",
+    "pages/picture/picture",
+    "pages/gussl/gussl"
+  ],
+  "requiredBackgroundModes": ["audio", "location"],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ef4455",
+    "navigationBarTitleText": "邀请函",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#ef4455",
+    "backgroundColor": "#fff",
+    "list": [
+      {"pagePath": "pages/index/index",
+      "text": "邀请函",
+      "iconPath": "./states/img/x.png",
+      "selectedIconPath": "./states/img/x_ac.png"
+      },
+      {"pagePath": "pages/picture/picture",
+        "text": "照片",
+        "iconPath": "./states/img/pic_ac.png",
+        "selectedIconPath": "./states/img/pic.png"
+        },
+       
+          {"pagePath": "pages/video/video",
+            "text": "美好时光",
+            "iconPath": "./states/img/time_ac.png",
+            "selectedIconPath": "./states/img/time.png"
+            },
+            {"pagePath": "pages/map/map",
+              "text": "地点",
+              "iconPath": "./states/img/addr_ac.png",
+              "selectedIconPath": "./states/img/addr.png"
+              },
+              {"pagePath":"pages/gussl/gussl",
+                "text": "宾客",
+                "iconPath": "./states/img/m_ac.png",
+                "selectedIconPath": "./states/img/m.png"
+                }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
